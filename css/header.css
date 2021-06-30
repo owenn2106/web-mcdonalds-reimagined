@@ -1,0 +1,38 @@
+header {
+  height: 100vh;
+  background: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -5em;
+}
+
+.header-text {
+  position: absolute;
+  top: 55%;
+  left: 75%;
+  transform: translate(-75%, -55%);
+}
+
+.header-text h1 {
+  font-family: var(--font-head);
+  font-size: 5rem;
+  color: var(--clr-gold);
+}
+
+.cta-wrapper {
+  margin-top: 1.8em;
+}
+
+.cta-btn {
+  color: var(--clr-gold);
+  text-decoration: none;
+  border: 1px solid var(--clr-gold);
+  padding: 0.5em 1em;
+
+  transition: all 300ms ease;
+}
+
+.cta-btn:hover {
+  color: black;
+  background-color: var(--clr-gold);
+}

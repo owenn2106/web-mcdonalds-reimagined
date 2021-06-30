@@ -1,0 +1,83 @@
+.extras {
+  min-height: 30vh;
+  background-color: var(--clr-gold);
+}
+
+.extras .container {
+  padding-top: 3em;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.social-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border: 1px solid black;
+
+  margin-right: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 300ms ease;
+}
+
+.social .fa {
+  color: var(--clr-gold);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.social:hover {
+  background-color: transparent;
+}
+
+.social:hover .fa {
+  color: black;
+}
+
+.install h1 {
+  padding-bottom: 0.5em;
+}
+
+.install-wrapper {
+  display: flex;
+}
+
+.install-wrapper .social {
+  margin-right: 0;
+  margin-left: 2em;
+}
+
+hr {
+  margin: 2em 0;
+  border: 1px solid black;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 2em;
+}
+
+.bottom a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom h1 {
+  font-size: 0.8rem;
+}

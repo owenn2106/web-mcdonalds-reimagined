@@ -1,0 +1,70 @@
+.mobile-app {
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-app .container {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+
+.mobile-app .container > * {
+  flex-basis: 100%;
+}
+
+.app-text {
+  padding-right: 2em;
+}
+
+.app-text h1 {
+  color: var(--clr-gold);
+  font-size: 3.5rem;
+  font-family: var(--font-head);
+}
+
+.app-text h2 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+
+  padding-top: 1em;
+}
+
+.app-btn {
+  padding-top: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.app-btn a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid var(--clr-gold);
+  background-color: var(--clr-gold);
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+
+  margin-right: 2em;
+
+  transition: all 300ms ease;
+}
+
+.app-btn a img {
+  max-height: 1.2rem;
+  width: auto;
+
+  padding-right: 1em;
+}
+
+.app-btn a:hover {
+  background: transparent;
+}
+
+.app-img {
+  background: url("../img/mcd-app.jpeg");
+  background-size: cover;
+  background-position-x: -25em;
+  height: 100%;
+}

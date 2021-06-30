@@ -1,0 +1,43 @@
+@import url("navbar.css");
+@import url("header.css");
+@import url("bts-meal.css");
+@import url("sub-section.css");
+@import url("menu.css");
+@import url("mobile-app.css");
+@import url("mobile-app-2.css");
+@import url("footer.css");
+@import url("extras.css");
+
+:root {
+  --clr-gold: #e6c462;
+  --clr-black: #111110;
+
+  --font-head: "DM Serif Display", serif;
+  --font-content: "Quattrocento", serif;
+}
+
+::selection {
+  color: black;
+  background-color: var(--clr-gold);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-content);
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(90%, 70.5rem);
+}

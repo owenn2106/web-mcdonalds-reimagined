@@ -1,0 +1,31 @@
+.footer {
+  min-height: 60vh;
+  background: var(--clr-gold);
+}
+
+.footer .container {
+  display: flex;
+
+  padding: 5em 0 0;
+}
+
+.footer .container > * {
+  flex-basis: 100%;
+}
+
+.footer .column h1 {
+  padding-bottom: 0.5em;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  padding: 0.5em 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: black;
+}
